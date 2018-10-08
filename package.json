@@ -1,5 +1,5 @@
 {
-  "name": "simple-react-full-stack",
+  "name": "react-express-webpack",
   "version": "1.0.0",
   "description": "Boilerplate to build a full stack web application using React, Node.js, Express and Webpack.",
   "main": "src/server/index.js",
@@ -13,9 +13,22 @@
   "author": "Sandeep Raveesh",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.2",
+    "body-parser": "^1.18.3",
     "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.8",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.5.2",
+    "react-router-bootstrap": "^0.24.4",
+    "react-router-dom": "^4.3.1",
+    "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
